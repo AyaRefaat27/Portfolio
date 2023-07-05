@@ -1,9 +1,9 @@
 import React from "react";
 import "./services.css";
 
-import Image1 from "../../assets/portfolio-1.jpg";
-import Image2 from "../../assets/portfolio-2.jpg";
-import Image3 from "../../assets/portfolio-3.jpg";
+import Image1 from "../../assets/web_design.png";
+import Image2 from "../../assets/ui_design.png";
+import Image3 from "../../assets/presentation.png";
 
 const data = [
   {

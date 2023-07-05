@@ -1,5 +1,5 @@
-import Work1 from "../../assets/portfolio-1.jpg";
-import Work2 from "../../assets/portfolio-2.jpg";
+import Work1 from "../../assets/E-Commerce_Website_Design.png";
+import Work2 from "../../assets/travel_website.jpg";
 import Work3 from "../../assets/portfolio-3.jpg";
 
 const Menu = [
@@ -11,13 +11,13 @@ const Menu = [
   },
   {
     id: 2,
-    image: Work2,
+    image: Work3,
     title: "Food App",
     category: "UI/UX",
   },
   {
     id: 3,
-    image: Work3,
+    image: Work2,
     title: "Crud App",
     category: "Web Design",
   },
