@@ -6,7 +6,7 @@ import ResumeCard from "./resumeCard";
 export default function Resume() {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Experience</h2>
+      <h2 className="section__title">Education , Courses & Certifactes</h2>
 
       <div className="resume__container grid">
         <div className="timeline grid">

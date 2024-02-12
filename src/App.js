@@ -6,6 +6,8 @@ import Portfolio from "./Components/Portfolio/portfolio";
 import Resume from "./Components/Resume/resume";
 import Services from "./Components/Services/services";
 import Contact from "./Components/Contact/contact";
+import Skills from "./Components/Skills/skills";
+import WorkExperience from "./Components/Resume/workExperience";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        <Skills />
         <Services />
+        <WorkExperience />
         <Resume />
         <Portfolio />
         <Contact />

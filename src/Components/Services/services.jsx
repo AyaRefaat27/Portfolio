@@ -23,7 +23,7 @@ const data = [
   {
     id: 3,
     image: Image3,
-    title: "Presentation",
+    title: "PowerPoint Presentation",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusantium in laboriosam neque dolorem praesentium id!",
   },

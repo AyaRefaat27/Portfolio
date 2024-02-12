@@ -1,7 +1,9 @@
 import React from "react";
 import "./about.css";
 import My_Photo from "../../assets/me.jpg";
-import AboutBox from "./aboutBox";
+import CV from "../../assets/CV.pdf";
+
+// import AboutBox from "./aboutBox";
 
 export default function About() {
   return (
@@ -13,12 +15,21 @@ export default function About() {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              As a junior frontend developer with a passion for web development
-              and a commitment to producing high-quality work, I believe that I
-              would be an excellent fit for any team I will join.
+              Self-motivated Frontend Developer adds beginner experience over
+              one year of collaborating and working on multiple web-based
+              projects. Passionate, hardworking coder with a penchant for
+              developing customized interfaces that factor in unique demands for
+              accessibility, reachability, and security. Organized approach to
+              meeting multiple, concurrent deadlines. Pulls from active
+              knowledge of the current technology landscape to promote best
+              practices in web design.
             </p>
-            <a href="" className="btn">
+            <a download="" href={CV} className="btn">
               Download CV
+              <i
+                className="icon-paper-clip"
+                style={{ paddingLeft: "10px", fontWeight: "bold" }}
+              ></i>
             </a>
           </div>
 
@@ -39,7 +50,7 @@ export default function About() {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">UI/UX</h3>
-                <span className="skills__number">60%</span>
+                <span className="skills__number">30%</span>
               </div>
 
               <div className="skills__bar">
@@ -63,7 +74,7 @@ export default function About() {
         </div>
       </div>
 
-      <AboutBox />
+      {/* <AboutBox /> */}
     </section>
   );
 }

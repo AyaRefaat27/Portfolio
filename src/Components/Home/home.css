@@ -12,11 +12,11 @@
 }
 
 .home__img {
-  width: 150px;
-  height: 150px auto;
-  margin-bottom: 1.5rem;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px auto;
+  border-radius: 20px;
   box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
 }
 
 .home__name {

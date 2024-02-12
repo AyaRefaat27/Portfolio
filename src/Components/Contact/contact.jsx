@@ -54,7 +54,17 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <button className="btn">Send Message</button>
+          <a
+            className="btn"
+            style={{ width: "180px", textAlign: "center" }}
+            href="mailto:ayarefaat200@gmail.com?subject=Hiring_Me&body=Hi,I am Aya Refaat.I am happy with your hiting ^-^."
+          >
+            Send Message{" "}
+            <i
+              className="icon-paper-plane"
+              style={{ paddingLeft: "10px", fontWeight: "bold" }}
+            ></i>
+          </a>
         </form>
       </div>
     </section>
